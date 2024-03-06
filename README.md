@@ -42,6 +42,9 @@ git clone https://github.com/rsrodhia/quiz-app.git
 2- Install the dependencies
 
 ```
+cd quiz-app
+```
+```
 composer install
 ```
 
@@ -50,6 +53,7 @@ composer install
 ```
 cp .env.example .env
 ```
+And edit database credentials there
 
 4- Generate the application key:
 
@@ -82,6 +86,7 @@ npm install
 ```
 npm run dev
 ```
+You can login to dashboard by going /login URL and login with credentials {email from users table} - password. Start by adding some random questions and creating a quiz :)
 
 ## Running Tests
 
