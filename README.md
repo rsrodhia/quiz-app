@@ -53,7 +53,7 @@ composer install
 ```
 cp .env.example .env
 ```
-And edit database credentials there
+And edit database credentials there. APP_URL=http://localhost/quiz-app/public
 
 4- Generate the application key:
 
@@ -67,7 +67,7 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
-6- Configure Livewire:
+6- Setup Livewire:
 
 ```
 php artisan livewire:publish --config
